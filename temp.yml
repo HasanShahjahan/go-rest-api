@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: application
-        image: "forbsey/comments-api:latest"
+        image: "hasanshahjahan/comments-api:latest"
         imagePullPolicy: Always
         ports:
           - containerPort: 8080
